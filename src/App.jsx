@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
-import Gallery from './Gallery';  // ← Import with capital G
-import ThumbnailList from './Thumbnails';  // ← lowercase file name
+import Gallery from './Gallery';  
+import ThumbnailList from './Thumbnails'; 
 
 function App() {
   const [images, setImages] = useState([]);
